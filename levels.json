@@ -1,0 +1,46 @@
+{
+  "1": {
+    "name": "Inicio burbujeante",
+    "goal": "Rompe todas las burbujas azules",
+    "bubbleColors": ["blue"],
+    "grid": [
+      ["blue", "blue", "blue"],
+      ["blue", "blue", "blue"],
+      ["", "", ""]
+    ],
+    "specials": []
+  },
+  "2": {
+    "name": "El laberinto escudo",
+    "goal": "Rompe todas las burbujas rojas y evita las protegidas",
+    "bubbleColors": ["red", "gray"],
+    "grid": [
+      ["gray", "red", "gray"],
+      ["red", "gray", "red"],
+      ["", "", ""]
+    ],
+    "specials": ["shielded"]
+  },
+  "3": {
+    "name": "Rescate burbujeante",
+    "goal": "Libera las burbujas atrapadas en menos de 30 segundos",
+    "bubbleColors": ["green", "yellow"],
+    "grid": [
+      ["green", "yellow", "green"],
+      ["trap", "trap", "trap"],
+      ["", "", ""]
+    ],
+    "specials": ["timer", "trapped"]
+  },
+  "4": {
+    "name": "Explosión en cadena",
+    "goal": "Activa una reacción con las burbujas explosivas",
+    "bubbleColors": ["purple", "orange"],
+    "grid": [
+      ["purple", "bomb", "orange"],
+      ["orange", "purple", "bomb"],
+      ["", "", ""]
+    ],
+    "specials": ["explosive"]
+  }
+}
