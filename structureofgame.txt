@@ -1,0 +1,9 @@
+super_piluka_game/
+├── frontend/              # JavaScript + Phaser
+│   ├── index.html
+│   ├── game.js
+│   └── assets/            # Imágenes, sonidos, animaciones
+├── backend/               # Python
+│   ├── app.py             # Lógica del juego y niveles
+│   └── levels.json        # Base de datos con niveles y retos
+└── README.md              # Documentación del proyecto
